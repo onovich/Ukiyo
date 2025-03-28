@@ -1,5 +1,5 @@
 # Ukiyo
-Ukiyo – A minimalist app for exploring Japanese traditional colors, named after the concept of "浮世" (the floating world). 
+Ukiyo – A minimalist app for exploring Japanese traditional colors, named after the concept of "浮世" (the floating world). </br>
 **Ukiyo，取名自「浮世」，用于查看日本传统色的极简 APP。**
 
 Inspired by the transient beauty of ukiyo-e and Edo-period aesthetics.
