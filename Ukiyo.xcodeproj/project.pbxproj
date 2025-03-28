@@ -7,17 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		586733172D95854500CAC8C2 /* gray.json in Resources */ = {isa = PBXBuildFile; fileRef = 5867330E2D95854500CAC8C2 /* gray.json */; };
-		586733182D95854500CAC8C2 /* red.json in Resources */ = {isa = PBXBuildFile; fileRef = 586733132D95854500CAC8C2 /* red.json */; };
-		586733192D95854500CAC8C2 /* black.json in Resources */ = {isa = PBXBuildFile; fileRef = 5867330B2D95854500CAC8C2 /* black.json */; };
-		5867331A2D95854500CAC8C2 /* green.json in Resources */ = {isa = PBXBuildFile; fileRef = 5867330F2D95854500CAC8C2 /* green.json */; };
-		5867331B2D95854500CAC8C2 /* brown.json in Resources */ = {isa = PBXBuildFile; fileRef = 5867330D2D95854500CAC8C2 /* brown.json */; };
-		5867331C2D95854500CAC8C2 /* yellow.json in Resources */ = {isa = PBXBuildFile; fileRef = 586733152D95854500CAC8C2 /* yellow.json */; };
-		5867331D2D95854500CAC8C2 /* purple.json in Resources */ = {isa = PBXBuildFile; fileRef = 586733122D95854500CAC8C2 /* purple.json */; };
-		5867331E2D95854500CAC8C2 /* pink.json in Resources */ = {isa = PBXBuildFile; fileRef = 586733112D95854500CAC8C2 /* pink.json */; };
-		5867331F2D95854500CAC8C2 /* blue.json in Resources */ = {isa = PBXBuildFile; fileRef = 5867330C2D95854500CAC8C2 /* blue.json */; };
-		586733202D95854500CAC8C2 /* orange.json in Resources */ = {isa = PBXBuildFile; fileRef = 586733102D95854500CAC8C2 /* orange.json */; };
-		586733212D95854500CAC8C2 /* white.json in Resources */ = {isa = PBXBuildFile; fileRef = 586733142D95854500CAC8C2 /* white.json */; };
 		586733422D968D9E00CAC8C2 /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 586733412D968D9D00CAC8C2 /* .gitignore */; };
 /* End PBXBuildFile section */
 
@@ -42,17 +31,6 @@
 		586732982D94E4C900CAC8C2 /* Ukiyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ukiyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		586732A82D94E4CA00CAC8C2 /* UkiyoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UkiyoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		586732B22D94E4CA00CAC8C2 /* UkiyoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UkiyoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5867330B2D95854500CAC8C2 /* black.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = black.json; sourceTree = "<group>"; };
-		5867330C2D95854500CAC8C2 /* blue.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blue.json; sourceTree = "<group>"; };
-		5867330D2D95854500CAC8C2 /* brown.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = brown.json; sourceTree = "<group>"; };
-		5867330E2D95854500CAC8C2 /* gray.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gray.json; sourceTree = "<group>"; };
-		5867330F2D95854500CAC8C2 /* green.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = green.json; sourceTree = "<group>"; };
-		586733102D95854500CAC8C2 /* orange.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = orange.json; sourceTree = "<group>"; };
-		586733112D95854500CAC8C2 /* pink.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pink.json; sourceTree = "<group>"; };
-		586733122D95854500CAC8C2 /* purple.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = purple.json; sourceTree = "<group>"; };
-		586733132D95854500CAC8C2 /* red.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = red.json; sourceTree = "<group>"; };
-		586733142D95854500CAC8C2 /* white.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = white.json; sourceTree = "<group>"; };
-		586733152D95854500CAC8C2 /* yellow.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = yellow.json; sourceTree = "<group>"; };
 		586733412D968D9D00CAC8C2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +80,6 @@
 		5867328F2D94E4C900CAC8C2 = {
 			isa = PBXGroup;
 			children = (
-				586733162D95854500CAC8C2 /* Jsons */,
 				5867329A2D94E4C900CAC8C2 /* Ukiyo */,
 				586732AB2D94E4CA00CAC8C2 /* UkiyoTests */,
 				586732B52D94E4CA00CAC8C2 /* UkiyoUITests */,
@@ -119,24 +96,6 @@
 				586732B22D94E4CA00CAC8C2 /* UkiyoUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		586733162D95854500CAC8C2 /* Jsons */ = {
-			isa = PBXGroup;
-			children = (
-				5867330B2D95854500CAC8C2 /* black.json */,
-				5867330C2D95854500CAC8C2 /* blue.json */,
-				5867330D2D95854500CAC8C2 /* brown.json */,
-				5867330E2D95854500CAC8C2 /* gray.json */,
-				5867330F2D95854500CAC8C2 /* green.json */,
-				586733102D95854500CAC8C2 /* orange.json */,
-				586733112D95854500CAC8C2 /* pink.json */,
-				586733122D95854500CAC8C2 /* purple.json */,
-				586733132D95854500CAC8C2 /* red.json */,
-				586733142D95854500CAC8C2 /* white.json */,
-				586733152D95854500CAC8C2 /* yellow.json */,
-			);
-			path = Jsons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,17 +218,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				586733172D95854500CAC8C2 /* gray.json in Resources */,
-				586733182D95854500CAC8C2 /* red.json in Resources */,
-				586733192D95854500CAC8C2 /* black.json in Resources */,
-				5867331A2D95854500CAC8C2 /* green.json in Resources */,
-				5867331B2D95854500CAC8C2 /* brown.json in Resources */,
-				5867331C2D95854500CAC8C2 /* yellow.json in Resources */,
-				5867331D2D95854500CAC8C2 /* purple.json in Resources */,
-				5867331E2D95854500CAC8C2 /* pink.json in Resources */,
-				5867331F2D95854500CAC8C2 /* blue.json in Resources */,
-				586733202D95854500CAC8C2 /* orange.json in Resources */,
-				586733212D95854500CAC8C2 /* white.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
