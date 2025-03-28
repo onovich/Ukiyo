@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		586733C22D969B3400CAC8C2 /* .xcodeignore in Resources */ = {isa = PBXBuildFile; fileRef = 586733C12D969B3300CAC8C2 /* .xcodeignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		586732A92D94E4CA00CAC8C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -28,6 +32,7 @@
 		586732A82D94E4CA00CAC8C2 /* UkiyoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UkiyoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		586732B22D94E4CA00CAC8C2 /* UkiyoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UkiyoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		586733412D968D9D00CAC8C2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		586733C12D969B3300CAC8C2 /* .xcodeignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .xcodeignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -81,6 +86,7 @@
 				586732B52D94E4CA00CAC8C2 /* UkiyoUITests */,
 				586732992D94E4C900CAC8C2 /* Products */,
 				586733412D968D9D00CAC8C2 /* .gitignore */,
+				586733C12D969B3300CAC8C2 /* .xcodeignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				586733C22D969B3400CAC8C2 /* .xcodeignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
