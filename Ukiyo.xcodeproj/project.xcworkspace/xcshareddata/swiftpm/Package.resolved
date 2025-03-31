@@ -1,0 +1,15 @@
+{
+  "originHash" : "5df97dc65cf49ae25d67c171030c58e83929c6d77773cdfe1a9e0ad80be477ba",
+  "pins" : [
+    {
+      "identity" : "swiftween",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onovich/Swiftween.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "81a78b62b4b33372cdb0d3c99aa285fcde0ce1aa"
+      }
+    }
+  ],
+  "version" : 3
+}

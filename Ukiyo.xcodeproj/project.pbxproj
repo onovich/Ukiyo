@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581A45812D9A1CEA00EF7EA7 /* Swiftween in Frameworks */ = {isa = PBXBuildFile; productRef = 581A45802D9A1CEA00EF7EA7 /* Swiftween */; };
 		586733C22D969B3400CAC8C2 /* .xcodeignore in Resources */ = {isa = PBXBuildFile; fileRef = 586733C12D969B3300CAC8C2 /* .xcodeignore */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				581A45812D9A1CEA00EF7EA7 /* Swiftween in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +122,7 @@
 			);
 			name = Ukiyo;
 			packageProductDependencies = (
+				581A45802D9A1CEA00EF7EA7 /* Swiftween */,
 			);
 			productName = Study_02;
 			productReference = 586732982D94E4C900CAC8C2 /* Ukiyo.app */;
@@ -203,6 +206,9 @@
 			);
 			mainGroup = 5867328F2D94E4C900CAC8C2;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				581A457F2D9A1CEA00EF7EA7 /* XCRemoteSwiftPackageReference "Swiftween" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 586732992D94E4C900CAC8C2 /* Products */;
 			projectDirPath = "";
@@ -567,6 +573,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		581A457F2D9A1CEA00EF7EA7 /* XCRemoteSwiftPackageReference "Swiftween" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onovich/Swiftween.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		581A45802D9A1CEA00EF7EA7 /* Swiftween */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 581A457F2D9A1CEA00EF7EA7 /* XCRemoteSwiftPackageReference "Swiftween" */;
+			productName = Swiftween;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 586732902D94E4C900CAC8C2 /* Project object */;
 }
